@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    /* устанавливает велечину отсутпа от края элемента*/
+    padding: 0;
+    /* Устанавливает значение полей вокруг содержимого жлемента */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    /* Устанавливает интерлиньяж */
+    color: #444;
+}
+
+h1 {
+    width: 255px;
+    /* Устанавливает ширину блочных или изменяемых элементов */
+    margin: 0 auto 8px;
+    /* _???Почему стал по середине???_ */
+    /* Первое значение задает отступ от верхнего края, второе — одновременно от левого и правого края, а третье — от нижнего края. */
+    font-family: "Georgia", serif;;
+    text-align: center;
+    /* Горизантальное выравнивание */
+    font-weight: normal;
+    /* Устанавливант насыщеность шрифта */
+    font-size: 56px;
+    line-height: 64px;
+    /* Все также устанавливает интерлиньяж */
+}
+
+h2 {
+    border-bottom: 2px solid #cccccc;
+    /* Свойство позволяет одновременно установить толщину, стиль и цвет границы внизу элемента. */
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.container {
+    width: 510px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header {
+    min-width: 550px;
+    /* Устанавливает минимальную ширину элемента */
+    height: 186px;
+    margin-bottom: 70px;
+    /* Устанавливает величину отступа от нижнего края элемента */
+    padding-top: 30px;
+    /* Устанавливает зн. поля от верхнего края содержимого эл. */
+    background: #847462 no-repeat center url("img/gloevk-bg.jpg");
+    /* _???no-repeat center???_ */
+    background-size: cover;
+    /* Масштабирует фоновое изображение согласно размерам */
+    /* Cover-Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока */
+    color: #ffb866;    
+}
+
+.site-header p {
+    width: 255px;
+    margin: 0 auto 26px;
+    /* Первое значение задает отступ от верхнего края, второе — одновременно от левого и правого края, а третье — от нижнего края. */
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.features {
+    width: 510px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+}
+
+.features p {
+    display: inline-block;
+    /* Определяет как элемент должен быть показан в документе */
+    /* inline-block - генерирует блочный элемент */
+    vertical-align: top;
+    /* _??? Ничего не делает ???_ */
+    /* Выравнивает элемент по вертикали относительно своего родителя, окружающего текста или ячейки таблицы. */
+    /* top - выравнивание верхнего края элемента по верху самого высокого эдемента строки */
+    width: 15%;
+    margin: 0 40px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* text-transform: uppercase;     */
+    /* Заглавные прописные буквы */
+    padding-top: 85px;
+    text-align:center;
+}
+
+.feature-furniture {
+    padding-top: 65px;
+    background-image: url("img/design-and-customize-roofs.svg");
+  }
+  
+.feature-lighting {
+    padding-top: 65px;
+    background-image: url("img/lighting-in-real-time.svg");
+  }
+  
+.feature-accessories {
+    padding-top: 65px;
+    background-image: url("img/import-from-sketchup-warehouse.svg");
+  }
+
+.advantages {
+    width: 510px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+
+.advantages-list {
+    padding: 0;
+    list-style: none;
+    /* Убирает нумерацию кружочки */
+
+}
+
+.advantages-item {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 20px solid #e2e2e2;
+    color: #999999;
+}
+
+.standard {
+    border-left: 20px solid #847462;
+    color: #6a6a6a;
+}
+
+.vip {
+    border-left: 20px solid #f59361;
+    color: #000000;
+}
+
+.site-footer {
+    min-width: 550px;
+    background-color: #847462;
+    color: #ffffff;
+  }
+
+.site-footer .container {
+    /* _??? Зачем .контейрен???_ */
+    text-align: center;
+}
+
+.site-footer p {
+    display: inline-block;
+    vertical-align: middle;
+    /* _???Ничего не делает???_ */
+    /* width: 30%; */
+    /* margin: 0 5px; */
+    padding: 0 20px;
+}

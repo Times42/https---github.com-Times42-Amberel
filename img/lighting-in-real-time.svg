@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" xml:space="preserve">
+<g fill="none" stroke="#f59361" stroke-width="2" stroke-miterlimit="10">
+  <g stroke-linecap="round">
+  	<line x1="40" y1="7" x2="40" y2="22"/>
+  	<line x1="40" y1="58" x2="40" y2="67"/>
+  	<line x1="47" y1="57" x2="51.2" y2="64.5"/>
+  	<line x1="33" y1="57" x2="29" y2="64.6"/>
+  	<path d="M48,49c-2,2.5-4.8,4-8,4s-6-1.5-8-4"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+  	<path d="M44.3,26L44.3,26c0-2.2-1.8-4-4-4h-0.5c-2.2,0-4,1.8-4,4l0,0H44.3z"/>
+    <path d="M61,46L61,46c0-11-8.9-20-19.8-20h-2.5C27.9,26,19,35,19,46l0,0H61z"/>
+  </g>
+	<circle cx="40" cy="40" r="39"/>
+</g>
+</svg>
